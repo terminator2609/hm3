@@ -12,7 +12,6 @@ int matFunc(double x)
 }
 
 
-
 int main()
 {
 	double x1, x2, x3, x4, x5, x6, x7, x8, x9, x10;
@@ -48,12 +47,7 @@ int main()
 	cin >> x10;
 
 
-	int numberLength = floor(log10(x1)) + 1;
-	int funcLength = floor(log10(matFunc(x1))) + 1;
-
 	
-
-
 	cout << "" << endl;
 	cout << "------------------------------------------------" << endl;
 	cout << "|" << setw(2) << "x" << setw(20) << "|" << setw(5) << "f(x)" << setw(20) << "|" << endl;

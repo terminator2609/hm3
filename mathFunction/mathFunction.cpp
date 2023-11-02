@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <cmath>
 #include <iomanip>
 
 using namespace std;
@@ -10,6 +9,7 @@ int matFunc(double x)
 
 	return result;
 }
+
 
 
 int main()
@@ -47,55 +47,42 @@ int main()
 	cin >> x10;
 
 
-	
 	cout << "" << endl;
-	cout << "------------------------------------------------" << endl;
-	cout << "|" << setw(2) << "x" << setw(20) << "|" << setw(5) << "f(x)" << setw(20) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << "-------------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << "x" << setw(2) << "|" << setw(25) << "f(x)" << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x1)) + 2) << x1 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x1)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x1))) + 2) << matFunc(x1) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x1))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x1 << setw(2) << "|"  << setw(25) << matFunc(x1) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x2)) + 2) << x2 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x2)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x2))) + 2) << matFunc(x2) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x2))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x2 << setw(2) << "|" << setw(25) << matFunc(x2) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x3)) + 2) << x3 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x3)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x3))) + 2) << matFunc(x3) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x3))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x3 << setw(2) << "|" << setw(25) << matFunc(x3) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x4)) + 2) << x4 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x4)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x4))) + 2) << matFunc(x4) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x4))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x4 << setw(2) << "|" << setw(25) << matFunc(x4) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x5)) + 2) << x5 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x5)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x5))) + 2) << matFunc(x5) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x5))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x5 << setw(2) << "|" << setw(25) << matFunc(x5) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x6)) + 2) << x6 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x6)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x6))) + 2) << matFunc(x6) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x6))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x6 << setw(2) << "|" << setw(25) << matFunc(x6) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x7 << setw(2) << "|" << setw(25) << matFunc(x7) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x7)) + 2) << x7 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x7)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x7))) + 2) << matFunc(x7) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x7))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x8 << setw(2) << "|" << setw(25) << matFunc(x8) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x9 << setw(2) << "|" << setw(25) << matFunc(x9) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x8)) + 2) << x8 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x8)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x8))) + 2) << matFunc(x8) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x8))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
+	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x10 << setw(2) << "|" << setw(25) << matFunc(x10) << "|" << endl;
+	cout << "-------------------------------------------------------" << endl;
 
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x9)) + 2) << x9 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x9)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x9))) + 2) << matFunc(x9) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x9))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
-
-	cout << "|" << setiosflags(ios::right) << setw(floor(log10(x10)) + 2) << x10 << resetiosflags(ios::right) << setw(20 + 1 - (floor(log10(x10)) + 1))
-		<< "|" << setiosflags(ios::right) << setw(floor(log10(matFunc(x10))) + 2) << matFunc(x10) << resetiosflags(ios::right) << setw(23 + 1 - (floor(log10(matFunc(x10))) + 1)) << "|" << endl;
-	cout << "------------------------------------------------" << endl;
-
-
+	
 	return 0;
 }
 

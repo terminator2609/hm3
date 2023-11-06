@@ -3,9 +3,9 @@
 
 using namespace std;
 
-int matFunc(double x)
+double matFunc(double x)
 {
-	double result = pow(x, 4) * 4 * (x, 3) - 2;
+	double result = pow(x, 4) + 4 * pow(x, 3) - 2;
 
 	return result;
 }

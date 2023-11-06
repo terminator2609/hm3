@@ -52,37 +52,37 @@ int main()
 	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << "x" << setw(2) << "|" << setw(25) << "f(x)" << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x1 << setw(2) << "|"  << setw(25) << matFunc(x1) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x1 << "| " << setw(25) << matFunc(x1) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x2 << setw(2) << "|" << setw(25) << matFunc(x2) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x2 << "| " << setw(25) << matFunc(x2) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x3 << setw(2) << "|" << setw(25) << matFunc(x3) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x3 << "| " << setw(25) << matFunc(x3) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x4 << setw(2) << "|" << setw(25) << matFunc(x4) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x4 << "| " << setw(25) << matFunc(x4) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x5 << setw(2) << "|" << setw(25) << matFunc(x5) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x5 << "| " << setw(25) << matFunc(x5) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x6 << setw(2) << "|" << setw(25) << matFunc(x6) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x6 << "| " << setw(25) << matFunc(x6) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x7 << setw(2) << "|" << setw(25) << matFunc(x7) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x7 << "| " << setw(25) << matFunc(x7) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x8 << setw(2) << "|" << setw(25) << matFunc(x8) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x8 << "| " << setw(25) << matFunc(x8) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x9 << setw(2) << "|" << setw(25) << matFunc(x9) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x9 << "| " << setw(25) << matFunc(x9) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << x10 << setw(2) << "|" << setw(25) << matFunc(x10) << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << x10 << "| " << setw(25) << matFunc(x10) << "|" << endl;
 	cout << "-------------------------------------------------------" << endl;
 
-	
+
 	return 0;
 }
 

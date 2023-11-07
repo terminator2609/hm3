@@ -68,32 +68,27 @@ int main()
 	cout << "Laptop 3 price: ";
 	cin >> lp3.price;
 
-
+	
 	cout << "" << endl;
 	cout << "--------------------------------------------------------------------------------------------------------" << endl;
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << "Brand Model" << setw(2) << "|" << setw(25) << "Price(lv.)" << setw(2)
-		<< "|" << setw(20) << "Color" << setw(2) << "|" << setw(25) << "Diagonal(inch.)" << "|" << endl;
+	cout << setiosflags(ios::left) << "| " << setw(25) << "Brand Model" << "| " << setw(25) 
+		<< "Price(lv.)" << "| " << setw(20) << "Color" << "| " << setw(25) << "Diagonal(inch.)" << "|" << endl;
 	cout << "--------------------------------------------------------------------------------------------------------" << endl;
 
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << lp1.brand + " " + lp1.model << setw(2) << "|" << setiosflags(ios::fixed)
-		<< setprecision(2) << setw(25) << lp1.price << setw(2) << "|" << setw(20) << lp1.color << setw(2) << "|"
-		<< setprecision(0) << setw(25) << lp1.diagonal << "|" << endl;
-
+	cout << "| " << setw(25) << lp1.brand + " " + lp1.model << "| " << setiosflags(ios::fixed) << setprecision(2) 
+		<< setw(25) << lp1.price << "| " << setw(20) << lp1.color << "| " << setprecision(0) << setw(25) << lp1.diagonal << "|" << endl;
 	cout << "--------------------------------------------------------------------------------------------------------" << endl;
 
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << lp2.brand + " " + lp2.model << setw(2) << "|" << setiosflags(ios::fixed)
-		<< setprecision(2) << setw(25) << lp2.price << setw(2) << "|" << setw(20) << lp2.color << setw(2) << "|"
-		<< setprecision(0) << setw(25) << lp2.diagonal << "|" << endl;
-
+	cout << "| " << setw(25) << lp2.brand + " " + lp2.model << "| " << setiosflags(ios::fixed) << setprecision(2) 
+		<< setw(25) << lp2.price << "| " << setw(20) << lp2.color << "| " << setprecision(0) << setw(25) << lp2.diagonal << "|" << endl;
 	cout << "--------------------------------------------------------------------------------------------------------" << endl;
 
-	cout << setw(2) << setiosflags(ios::left) << "|" << setw(25) << lp3.brand + " " + lp3.model << setw(2) << "|" << setiosflags(ios::fixed)
-		<< setprecision(2) << setw(25) << lp3.price << setw(2) << "|" << setw(20) << lp3.color << setw(2) << "|"
-		<< setprecision(0) << setw(25) << lp3.diagonal << "|" << endl;
-
+	cout << "| " << setw(25) << lp3.brand + " " + lp3.model << "| " << setiosflags(ios::fixed) << setprecision(2) 
+		<< setw(25) << lp3.price << "| " << setw(20) << lp3.color << "| " << setprecision(0) << setw(25) << lp3.diagonal << "|" << endl;
 	cout << "--------------------------------------------------------------------------------------------------------" << endl;
 
+	return 0;
 }
 
